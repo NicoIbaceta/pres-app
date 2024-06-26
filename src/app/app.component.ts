@@ -17,9 +17,5 @@ import { OutcomesComponent } from './components/outcomes/outcomes.component';
 export class AppComponent {
   title = 'presupuesto-app';
 
-  constructor(private budgetService: BudgetService){}
 
-  addIncome(amount: number, description: string) {
-    this.budgetService.addIncome(amount,description);
-  }
 }
